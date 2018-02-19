@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../elements/Button';
 
 const Portfolio = () => (
   <div className="Portfolio">

@@ -7,16 +7,16 @@ export default [
     path: '/',
     component: Home,
     exact: true,
-    title: 'Carlotta Dadey',
+    title: 'Footwear designer',
     description: '',
     socialText: '',
     image: ''
   },
   {
-    path: '/mood',
+    path: '/about',
     component: About,
     exact: true,
-    title: 'Mood',
+    title: 'Carlotta Dadey',
     description: '',
     socialText: '',
     image: ''
