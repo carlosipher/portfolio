@@ -31,7 +31,7 @@ class App extends React.Component {
       <this.props.router context={{}} location={this.props.location}>
         <div className={`Container ${this.state.ready ? 'Ready': 'Loading'} ${this.state.navigating ? 'Navigating' : ''}`}>
           <div className="Content">
-            <Navigation {...this.props} navigationClick={e => this.clickNavigation(e)} />
+            {/* <Navigation {...this.props} navigationClick={e => this.clickNavigation(e)} /> */}
             <Switch>
               { pages
                 .map(route => (

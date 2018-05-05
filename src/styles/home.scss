@@ -1,4 +1,34 @@
 .Home {
+  .Contact {
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    h2 {
+      font-family: 'Rozha One', serif;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-top: 10px;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    p {
+      margin-top: 10px;
+    }
+    a {
+      color: white;
+      font-style: italic;
+      font-weight: 100;
+    }
+  }
   .Skills {
     margin-top: 50px;
   }

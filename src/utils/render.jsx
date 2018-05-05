@@ -20,7 +20,7 @@ const render = (component, data) => (
     <meta name="viewport" content="${viewPort}" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle|Lato:300,700" rel="stylesheet">
     <link rel="stylesheet" href="${process.env.ENV === 'local' ? 'http://localhost:8080' : ''}/index.css" />
   </head>
   <body>
